@@ -1,0 +1,15 @@
+h1 {
+    color: purple;
+    font-family: broadway;
+    background-color:
+}
+
+body {
+    background-color: black;
+    background-image: url("Shadow_of_a_Ninja_Final.jpg");
+    background-repeat: no-repeat background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.red {color: whitesmoke;}
+.blue {color: lightblue;}
