@@ -10,6 +10,39 @@ body {
     background-repeat: no-repeat background-position: center;
     background-attachment: fixed;
     background-size: cover;
+
+    .bottom-row {
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+
+        display: flex;
+        gap: 16px;
+
+        z-index: 1000;
+        /* Keeps it above most page content */
+    }
+
+    .box {
+        width: 120px;
+        height: 120px;
+        background: #4a90e2;
+        color: white;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border-radius: 12px;
+        font-family: Arial, sans-serif;
+    }
 }
-.red {color: whitesmoke;}
-.blue {color: lightblue;}
+
+.red {
+    color: whitesmoke;
+}
+
+.blue {
+    color: lightblue;
+}
